@@ -1,0 +1,112 @@
+@import './grid/index.styl'
+@import './components/card.styl'
+@import './components/media.styl'
+@import './components/maps.styl'
+@import './variables.styl'
+
+.chart_title
+    text-align center
+    display block
+    font-size 3em
+    font-weight bold
+.chartDescription
+    text-align center
+    display block
+    font-weight 300
+.chart_dates
+    text-align center
+    font-size .7em
+    font-weight 600
+    float left
+    margin 10px 5px
+.headChart
+    margin 20px auto
+    max-width max-content
+    text-transform uppercase
+    font-weight 500
+    label
+        padding 7px 10px
+        color white
+        text-align center
+        &._primary
+            background $primary-color
+        &._accent
+            background: $secundary-color
+.datesContainer
+    width 100%
+    float left
+.shareContainer
+    margin 30px auto
+    max-width max-content
+    padding 15px 20px
+    text-align center
+    border 2px $primary-color solid
+    border-radius 5px
+    font-weight bold
+    text-transform uppercase
+    font-size 0.8em
+    display flex
+    align-items center
+    span
+        margin-right 10px
+    a
+        text-decoration none
+    .shareContainer__button
+        cursor pointer
+        font-size 1.5em
+        width 30px
+        height 30px
+        border-radius 50%
+        display flex
+        text-align center
+        justify-content center
+        align-items center
+        margin 0 5px
+        color white
+        &_facebook
+            background #4468B0
+        &_twitter
+            background #2AA3EF
+@media only screen and (max-width: 1136px)
+    .media
+        .media__topBody
+            min-height 131px
+@media only screen and (max-width: 1000px)
+    .media
+        .media__topBody
+            .media__topName
+                font-size 1.7em
+@media only screen and (max-width: 892px)
+    .card
+        lost-waffle 1/2 2 20px flex !important
+    .media
+        lost-waffle 1/2 2 20px flex !important
+        .media__bottomBody
+            padding 10px 30px
+@media only screen and (max-width: 680px)
+    .grid_content
+        display inline-block !important
+        padding 0 10px
+        box-sizing border-box
+    .chart_title
+        font-size 2.5em !important
+    .card
+        lost-waffle 1/1 !important
+        .card__topBody
+            .card__topImg
+                width 90px !important
+                height 90px !important
+            .card__topPercentaje
+                font-size 3.8em !important
+            .card__topVotes
+                font-size 0.9em !important
+    .media
+        lost-waffle 1/1 !important
+@media only screen and (max-width: 480px)
+    .headChart
+        label
+            display: block
+    .media
+        .media__bottomBody
+            padding 10px
+

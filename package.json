@@ -1,0 +1,42 @@
+{
+  "name": "charts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cerebral": "^3.6.0",
+    "chart.js": "^2.7.1",
+    "inferno": "^3.10.1",
+    "inferno-compat": "^3.10.1",
+    "inferno-component": "^3.10.1",
+    "inferno-scripts": "5.0.0",
+    "moment": "^2.20.1",
+    "numeral": "^2.0.6",
+    "office-ui-fabric-react": "^5.35.0",
+    "postcss-hash-classname": "^0.4.0",
+    "progressbar.js": "^1.0.1",
+    "react-content-loader": "^2.0.0"
+  },
+  "scripts": {
+    "start": "inferno-scripts start",
+    "dev": "node_modules/.bin/gulp",
+    "build": "inferno-scripts build",
+    "test": "inferno-scripts test --env=jsdom",
+    "eject": "inferno-scripts eject",
+    "dev:start": "npm run dev & npm run start"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-stylus": "^2.6.0",
+    "gulp-watch": "^4.3.11",
+    "lost": "^8.2.0",
+    "poststylus": "^1.0.0",
+    "stylus": "^0.54.5"
+  }
+}

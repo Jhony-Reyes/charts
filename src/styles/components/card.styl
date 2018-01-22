@@ -1,0 +1,38 @@
+.card
+    lost-waffle 1/4 4 20px flex
+    text-align center
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2)
+    //Top content card
+    .card__topBody
+        display inline-block
+        &_twitter
+            display inline-flex
+            align-items center
+        .card__topImg
+            width 65px
+            height 65px
+            background-size cover
+            background-position center
+            background-repeat no-repeat
+            float left
+            border-radius 50%
+            margin 5px
+            &_border
+                border #000 1px solid
+        .card__topPercentaje
+            font-size 2.4em
+            font-weight bold
+        .card__topVotes
+            display block
+            font-size 0.8em
+            font-weight bold
+    .card__bottomBody
+        display block
+        text-align center
+        .card__bottomName
+            display block
+            text-transform uppercase
+            font-weight bold
+        .card__bottomParties
+            font-size 0.9em
+            font-weight lighter
